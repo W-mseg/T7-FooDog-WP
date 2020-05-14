@@ -5,7 +5,7 @@
 * Stéphane Léonard
 * Jean Mourmeaux
 * Luciano Caturano
-* Segretario Marco
+* Marco Segretario 
 
 ## Répartition des tâches
 
