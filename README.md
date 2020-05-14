@@ -2,7 +2,7 @@
 
 ## par la team 7
 
-* Stephane Léonard
+* Stéphane Léonard
 * Jean Mourmeaux
 * Luciano Caturano
 * Segretario Marco
