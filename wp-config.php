@@ -46,14 +46,14 @@ define( 'DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'dX%V-UJdb|B]O*3_{ie}-AH9$rGwiPNcE=f_lx3=j.e?9J]U}el&FF0jz[L#(hig' );
-define( 'SECURE_AUTH_KEY',  '@mt82j,C~6)+pHNIgi9P6>(66x!,#vEhgb%8E:+e6!#@1YYc3W+$)P]j&, {w?Sh' );
-define( 'LOGGED_IN_KEY',    'WxnCPa^aEUp=!U-8k4EmF4k!KQs!P~NKk.:$Ynf_;tk!Rr!DiFvXVBzHgD,7)^o{' );
-define( 'NONCE_KEY',        'ax=R$4M9Y0<h)0oMWw::<[VLag2ClH:ef;]k1_7#B7K>_,<LCY@oO/+kD#+[Msg~' );
-define( 'AUTH_SALT',        '%B^;}>D!P1yeB`*=20_ 9afU~!F)77Pu2NV,dtY>6:^W+Zs>MIew_sH-8b={j@-<' );
-define( 'SECURE_AUTH_SALT', '.J@cYk}I_^AjiF-6fH&2@J]+n)G9yzG/2-N=``gUbQuOh{(p]0GAyO277W)Q@,[d' );
-define( 'LOGGED_IN_SALT',   '!oK*k/hOK).m0|Rg*nY?}-]6UGArzAE;kw9!:]h~M7C_MzO_4X3+GReP1>XzmM^y' );
-define( 'NONCE_SALT',       'y~CkzM4e6YsWUHV,PVTk@w}9Re~o]qNh!eitYC/:){$.+#@0W]h.@lPW![-1MIZN' );
+define( 'AUTH_KEY',         '428dcffc2404904eef7efb4d299f7a6550cc2348');
+define( 'SECURE_AUTH_KEY',  'bba2a1878bc1c19c89711f9de52048ca40ecd7d1');
+define( 'LOGGED_IN_KEY',    '5c764ac2a048d849d4d14b869bb3aa50b519d3f5');
+define( 'NONCE_KEY',        '8b09721b241e3d658daca840f5428e475225d120');
+define( 'AUTH_SALT',        '3ad2a8e130a5d1a219f764ae431d259947d3c808');
+define( 'SECURE_AUTH_SALT', '8e54e4f0b66060f850e8b8d0e9eadf05c0a7f30d');
+define( 'LOGGED_IN_SALT',   'd2647622ba2bc94d5dc2fd6a94b278e01db0efc3');
+define( 'NONCE_SALT',       'b40db0b6bbaa9d9f03df80e2904739e883eac16b');
 
 /**#@-*/
 
@@ -78,6 +78,12 @@ $table_prefix = 'wp_';
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', false );
+
+// If we're behind a proxy server and using HTTPS, we need to alert WordPress of that fact
+// see also http://codex.wordpress.org/Administration_Over_SSL#Using_a_Reverse_Proxy
+if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') {
+	$_SERVER['HTTPS'] = 'on';
+}
 
 /* That's all, stop editing! Happy publishing. */
 
