@@ -14,3 +14,9 @@ en cours
 ## Technos utilisées
 
 en cours
+
+![image](imagesreadme/infobddwp.png)
+
+![image](imagesreadme/infositewp.png)
+
+![image](imagesreadme/adminmdpwp.png)
