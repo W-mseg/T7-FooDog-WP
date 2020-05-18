@@ -5,7 +5,7 @@
 * Stéphane Léonard
 * Jean Mourmeaux
 * Luciano Caturano
-* Marco Segretario 
+* Marco Segretario
 
 ## Répartition des tâches
 
@@ -13,7 +13,8 @@ en cours
 
 ## Technos utilisées
 
-en cours
+- Docker
+- Github Kanban
 
 ![image](imagesreadme/infobddwp.png)
 
