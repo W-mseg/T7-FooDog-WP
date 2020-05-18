@@ -10,6 +10,7 @@ function foodog_register_bootstrap(){
 
 	wp_enqueue_style('bootstrap');
 
+
 	wp_register_script(
 	        'bootstrapjs1',
             'https://code.jquery.com/jquery-3.5.1.slim.min.js', [],
@@ -38,7 +39,7 @@ function foodog_register_bootstrap(){
 function foodog_title_separator(){
     return '|';
 }
-
+add_theme_support('post-thumbnails');
 add_action('wp_enqueue_scripts','foodog_register_bootstrap');
 add_filter('document_title_separator','foodog_title_separator');
 
