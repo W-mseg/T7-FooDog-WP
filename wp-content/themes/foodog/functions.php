@@ -11,6 +11,7 @@
 
 /**
  * Table of Contents:
+ * Adds from team 7
  * Theme Support
  * Required Files
  * Register Styles
@@ -23,6 +24,40 @@
  * Enqueue Classic Editor Styles
  * Block Editor Settings
  */
+
+
+function foodog_register_bootstrap(){
+	wp_register_style(
+	        'bootstrap',
+            'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
+    );
+
+	wp_enqueue_style('bootstrap');
+
+	wp_register_script(
+	        'bootstrapjs1',
+            'https://code.jquery.com/jquery-3.5.1.slim.min.js'
+    );
+	wp_register_script(
+	        'bootstrapjs2',
+            'https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'
+    );
+	wp_register_script(
+	        'bootstrapjs3',
+            'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js'
+    );
+
+	wp_enqueue_script('bootstrapjs1');
+    wp_enqueue_script('bootstrapjs2');
+    wp_enqueue_script('bootstrapjs3');
+
+}
+
+add_action('wp_enqueue_scripts','foodog_register_bootstrap');
+
+
+
+
 
 /**
  * Sets up theme defaults and registers support for various WordPress features.
