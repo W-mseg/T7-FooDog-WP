@@ -7,9 +7,13 @@ function foodog_register_bootstrap(){
 	        'bootstrap',
             'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'
     );
+	wp_register_style(
+	  'style',
+      './style.css'
+    );
 
 	wp_enqueue_style('bootstrap');
-
+    wp_enqueue_style('style');
 
 	wp_register_script(
 	        'bootstrapjs1',
