@@ -1,6 +1,5 @@
 <?php get_header() ?>
 
-
 <?php
         /**
          * boucle pour afficher les articles
