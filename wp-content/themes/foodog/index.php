@@ -13,7 +13,6 @@
  * @subpackage Twenty_Twenty
  * @since Twenty Twenty 1.0
  */
-
 get_header();
 ?>
 
@@ -53,6 +52,8 @@ get_header();
 	}
 
 	if ( $archive_title || $archive_subtitle ) {
+
+}
 		?>
 
 		<header class="archive-header has-text-align-center header-footer-group">
@@ -72,40 +73,45 @@ get_header();
 		</header><!-- .archive-header -->
 
 		<?php
-	}
 
-	if ( have_posts() ) {
+        if (have_posts()):
+            $recent_post = wp_get_recent_posts(array(
+                    'numberposts'=>5,
+                    'post_status'=>'publish',
+            ));
 
-		$i = 0;
+        foreach ($recent_post as $post): ?>
+        <h3>
+                <p><?php echo $post['post_title'] ?></p>
+            <a href="<?php echo get_permalink($post['ID']); ?>">
+            <?php echo get_the_post_thumbnail($post['ID']); ?>
+            </a>
+        </h3>
+        <?php
+        the_excerpt();
+        endforeach;wp_reset_query(); ?>
+        <ul>
 
-		while ( have_posts() ) {
-			$i++;
-			if ( $i > 1 ) {
-				echo '<hr class="post-separator styled-separator is-style-wide section-inner" aria-hidden="true" />';
-			}
-			the_post();
+            <?php /*  while (have_posts()): the_post(); ?>
+            <h3>
+                <?php the_title() ?>
+            </h3>
+            <a href="<?php get_permalink() ?>">
+            <?php
+                the_post_thumbnail(); ?>
+                </a>
+                <?php
+                the_excerpt();
+            ?>
+            <?php endwhile*/ ?>
+        </ul>
+        <?php else: ?>
+            <h1>Pas d'articles</h1>
 
-			get_template_part( 'template-parts/content', get_post_type() );
+        <?php endif;?>
 
-		}
-	} elseif ( is_search() ) {
-		?>
 
-		<div class="no-search-results-form section-inner thin">
 
-			<?php
-			get_search_form(
-				array(
-					'label' => __( 'search again', 'twentytwenty' ),
-				)
-			);
-			?>
-
-		</div><!-- .no-search-results -->
-
-		<?php
-	}
-	?>
 
 	<?php get_template_part( 'template-parts/pagination' ); ?>
 
@@ -115,3 +121,4 @@ get_header();
 
 <?php
 get_footer();
+

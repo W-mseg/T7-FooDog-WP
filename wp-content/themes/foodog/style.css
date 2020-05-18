@@ -51,6 +51,11 @@ with others.
 
 /*	0. CSS Reset
 /* -------------------------------------------------------------------------- */
+.header-navigation-wrapper{
+	color: blue !important;
+}
+
+
 
 
 html,
