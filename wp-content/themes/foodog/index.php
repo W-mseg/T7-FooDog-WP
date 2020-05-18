@@ -72,8 +72,11 @@ get_header();
 
 		</header><!-- .archive-header -->
 
-		<?php
 
+		<?php
+        /**
+         * boucle pour afficher les articles
+         */
         if (have_posts()):
             $recent_post = wp_get_recent_posts(array(
                     'numberposts'=>5,
@@ -81,16 +84,18 @@ get_header();
             ));
 
         foreach ($recent_post as $post): ?>
-        <h3>
+        <div class="article">
+            <h3>
                 <p><?php echo $post['post_title'] ?></p>
-            <a href="<?php echo get_permalink($post['ID']); ?>">
-            <?php echo get_the_post_thumbnail($post['ID']); ?>
-            </a>
-        </h3>
+                <a href="<?php echo get_permalink($post['ID']); ?>">
+                <?php echo get_the_post_thumbnail($post['ID']); ?>
+                </a>
+            </h3>
         <?php
-        the_excerpt();
-        endforeach;wp_reset_query(); ?>
-        <ul>
+        echo $post['post_excerpt']; ?>
+        </div>
+        <?php endforeach;wp_reset_query(); ?>
+
 
             <?php /*  while (have_posts()): the_post(); ?>
             <h3>
@@ -107,10 +112,7 @@ get_header();
         </ul>
         <?php else: ?>
             <h1>Pas d'articles</h1>
-
         <?php endif;?>
-
-
 
 
 	<?php get_template_part( 'template-parts/pagination' ); ?>
