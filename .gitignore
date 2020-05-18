@@ -1,4 +1,4 @@
 
 wp-config.php
 *.scssc
-uploads/
+wp-content/uploads/
