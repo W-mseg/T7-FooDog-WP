@@ -3,8 +3,8 @@
         /**
          * boucle pour afficher les articles
          */
-        require('./boucles/loop_index.php');
-        ?>
 
+        require_once('loop_index.php');
+?>
 
 <?php get_footer() ?>
