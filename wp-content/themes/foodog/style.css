@@ -4,3 +4,7 @@ Version: 1.0.0
 Description: Theme wordpres créé par la team 7 ( Luciano Caturano, Marco Segretario, Stéphane Léonard, Jean Mourmeaux )
 Author: Team 7
 */
+
+h1 {
+  font-family: "Crimson Text", serif;
+}
