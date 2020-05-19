@@ -59,8 +59,22 @@ function foodog_title_separator()
 {
     return '|';
 }
+
+function foodog_category_class()
+{
+    $categories = get_the_category();
+
+    $output = '<div class="d-flex justify-content-center">';
+    foreach ($categories as $category) {
+        $output .= '<a  class="category" href="' . esc_url(get_category_link($category->term_id)) . '">' . $category->name . '</a>';
+    }
+    $output .= '</div>';
+
+    return $output;
+}
+
 add_theme_support('post-thumbnails');
 add_action('wp_enqueue_scripts', 'foodog_register_bootstrap');
 add_action('after_setup_theme','foodog_support');
 add_filter('document_title_separator', 'foodog_title_separator');
-
+add_filter('the_category', 'foodog_category_class');
