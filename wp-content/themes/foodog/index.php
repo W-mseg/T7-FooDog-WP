@@ -6,8 +6,9 @@
          */
             if (have_posts()):
                 $recent_post = wp_get_recent_posts(array(
-                    'numberposts'=>5,
+                    'numberposts'=>1,
                     'post_status'=>'publish',
+                    'category'=>2,
                 ));
 
                 foreach ($recent_post as $post): ?>
