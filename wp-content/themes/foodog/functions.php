@@ -1,6 +1,13 @@
 <?php
 
-add_theme_support('title-tag');
+function foodog_support(){
+
+    add_theme_support('title-tag');
+    add_theme_support('menus');
+    register_nav_menu('header','En tête');
+}
+
+
 
 function foodog_register_bootstrap()
 {
@@ -54,4 +61,6 @@ function foodog_title_separator()
 }
 add_theme_support('post-thumbnails');
 add_action('wp_enqueue_scripts', 'foodog_register_bootstrap');
+add_action('after_setup_theme','foodog_support');
 add_filter('document_title_separator', 'foodog_title_separator');
+

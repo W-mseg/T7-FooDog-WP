@@ -8,3 +8,10 @@
 </head>
 
 <body>
+<?php wp_nav_menu(
+    [
+        'theme_location'=>'header',
+        'container'=>false,
+        'menu_class'=>'navbar-nav mr-auto'
+    ]
+);
