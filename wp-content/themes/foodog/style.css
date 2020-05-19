@@ -20,11 +20,17 @@ h1 {
 .category {
   color: coral;
   text-decoration: none;
-  margin: 1em;
+  margin: .5em;
 }
 
 .category:hover {
   color: rgb(255, 174, 145);
   text-decoration: none;
   cursor: pointer;
+}
+
+.single-title {
+  font-weight: 700;
+  color: rgb(63, 63, 63);
+  text-align: center;
 }

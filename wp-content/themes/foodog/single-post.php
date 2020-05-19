@@ -13,21 +13,30 @@
 get_header();
 ?>
 <div class="container">
-    <?php
-    if (have_posts()) :
-        while (have_posts()) :  the_post(); ?>
-            <div class="categories m-4">
-                <?php the_category(' '); ?>
-            </div>
-            <h1><?= the_title() ?></h1>
-            <?= the_content() ?>
+    <div class="row">
+        <div class="col col-md-8">
 
-        <?php endwhile;
-        wp_reset_query(); ?>
 
-    <?php else : ?>
-        <h1>Pas d'articles</h1>
-    <?php endif; ?>
+            <?php
+            if (have_posts()) :
+                while (have_posts()) :  the_post(); ?>
+                    <div class="categories m-4">
+                        <?php the_category(' '); ?>
+                    </div>
+                    <h2 class="single-title"><?= the_title() ?></h2>
+                    <?= the_content() ?>
+
+                <?php endwhile;
+                wp_reset_query(); ?>
+
+            <?php else : ?>
+                <h1>Pas d'articles</h1>
+            <?php endif; ?>
+        </div>
+        <div class="col col-md-4">
+
+        </div>
+    </div>
 </div>
 
 
