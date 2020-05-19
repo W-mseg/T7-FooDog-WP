@@ -5,6 +5,32 @@ Description: Theme wordpres créé par la team 7 ( Luciano Caturano, Marco Segre
 Author: Team 7
 */
 
+/*******************************/
+/*           elements         */
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
 h1 {
   font-family: "Crimson Text", serif;
+}
+/*******************************/
+/*             Classes         */
+.category {
+  color: coral;
+  text-decoration: none;
+  margin: .5em;
+}
+
+.category:hover {
+  color: rgb(255, 174, 145);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.single-title {
+  font-weight: 700;
+  color: rgb(63, 63, 63);
+  text-align: center;
 }
