@@ -23,7 +23,17 @@ get_header();
                     <div class="categories m-4">
                         <?php the_category(' '); ?>
                     </div>
-                    <h2 class="single-title"><?= the_title() ?></h2>
+                    <h2 class="single-title mb-4"><?= the_title() ?></h2>
+                    <?php the_post_thumbnail('full', ['class' => 'img-fluid', 'style' => 'height:auto']) ?>
+                    <?php if (function_exists('sharing_display')) {
+                        sharing_display('', true);
+                    }
+
+                    if (class_exists('Jetpack_Likes')) {
+                        $custom_likes = new Jetpack_Likes;
+                        echo $custom_likes->post_likes('');
+                    }
+                    ?>
                     <?= the_content() ?>
 
                 <?php endwhile;
