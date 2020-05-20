@@ -4,3 +4,4 @@ wp-config.php
 wp-content/uploads/
 *.xml
 .idea/
+*.xml
