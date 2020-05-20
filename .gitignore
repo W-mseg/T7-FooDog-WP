@@ -3,3 +3,4 @@ wp-config.php
 *.scssc
 wp-content/uploads/
 *.xml
+.idea/

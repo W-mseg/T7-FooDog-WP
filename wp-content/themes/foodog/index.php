@@ -3,7 +3,16 @@
         /**
          * boucle pour afficher les articles
          */
-        require_once('loop/loop_index.php');
-?>
 
+        ?>
+<div class="all_featured">
+            <?php
+                require_once('loop/loop_index.php');?>
+
+        <div class="featured">
+            <?php
+                require_once('loop/loop_index_mini.php');
+            ?>
+        </div>
+</div>
 <?php get_footer() ?>

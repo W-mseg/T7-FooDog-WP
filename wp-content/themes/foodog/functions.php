@@ -73,8 +73,17 @@ function foodog_category_class()
     return $output;
 }
 
+function foodog_remove_share() {
+    remove_filter( 'the_content', 'sharing_display', 19 );
+    remove_filter( 'the_excerpt', 'sharing_display', 19 );
+    if ( class_exists( 'Jetpack_Likes' ) ) {
+        remove_filter( 'the_content', array( Jetpack_Likes::init(), 'post_likes' ), 30, 1 );
+    }
+}
+
 add_theme_support('post-thumbnails');
 add_action('wp_enqueue_scripts', 'foodog_register_bootstrap');
 add_action('after_setup_theme','foodog_support');
+add_action( 'loop_start', 'foodog_remove_share' );
 add_filter('document_title_separator', 'foodog_title_separator');
 add_filter('the_category', 'foodog_category_class');
