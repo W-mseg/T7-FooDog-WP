@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0ca71f3c-fb52-439b-93b5-0e61d8ba3636" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/404.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/loop/loop_index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/loop/loop_index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +50,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="477" y="264" key="NewPhpFileDialog" timestamp="1589896569991">
+    <state x="299" y="302" key="NewPhpFileDialog" timestamp="1589978229525">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="477" y="264" key="NewPhpFileDialog/0.0.1280.680/0.1080.1920.515@0.0.1280.680" timestamp="1589896569991" />
+    <state x="299" y="302" key="NewPhpFileDialog/0.0.1280.680/0.1080.1920.515@0.0.1280.680" timestamp="1589978229525" />
     <state x="336" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1589964796562">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="336" y="239" key="com.intellij.ide.util.TipDialog/0.0.1280.680/0.1080.1920.515@0.0.1280.680" timestamp="1589964796562" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1589976548052">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/0.1080.1920.515@0.0.1280.680" timestamp="1589976548052" />
   </component>
 </project>
