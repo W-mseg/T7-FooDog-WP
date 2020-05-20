@@ -23,7 +23,14 @@ get_header();
                     <div class="categories m-4">
                         <?php the_category(' '); ?>
                     </div>
-                    <h2 class="single-title"><?= the_title() ?></h2>
+                    <h2 class="single-title mb-4"><?= the_title() ?></h2>
+                    <?php the_post_thumbnail('full', ['class' => 'img-fluid mb-4', 'style' => 'height:auto']) ?>
+                    <div class="d-flex bd-highlight border-top border-bottom">
+                        <div class="p-2 flex-grow-1 bd-highlight my-auto"><?php the_author(); ?></div>
+                        <div class="p-2 bd-highlight my-auto">COMMENTS</div>
+                        <div class="p-2 bd-highlight my-auto">SHARE</div>
+                        <div class="p-2 bd-highlight my-auto">SOCIALS</div>
+                    </div>
                     <?= the_content() ?>
 
                 <?php endwhile;
@@ -34,7 +41,6 @@ get_header();
             <?php endif; ?>
         </div>
         <div class="col col-md-4">
-
         </div>
     </div>
 </div>
