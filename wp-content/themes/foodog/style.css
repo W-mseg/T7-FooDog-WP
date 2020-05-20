@@ -4,7 +4,6 @@ Version: 1.0.0
 Description: Theme wordpres créé par la team 7 ( Luciano Caturano, Marco Segretario, Stéphane Léonard, Jean Mourmeaux )
 Author: Team 7
 */
-
 /*******************************/
 /*           elements         */
 
@@ -33,4 +32,25 @@ h1 {
   font-weight: 700;
   color: rgb(63, 63, 63);
   text-align: center;
+}
+
+.all_featured{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.featured{
+  max-width: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.featured img{
+  height: 150px;
+}
+
+.card_mini{
+  width: 300px;
+  height: 400px;
 }
