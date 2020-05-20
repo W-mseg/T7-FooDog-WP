@@ -32,6 +32,10 @@ get_header();
                         <div class="p-2 bd-highlight my-auto">SOCIALS</div>
                     </div>
                     <?= the_content() ?>
+                    <?php if (comments_open() || get_comments_number()) {
+                        comments_template();
+                        wp_list_comments();
+                    } ?>
 
                 <?php endwhile;
                 wp_reset_query(); ?>
