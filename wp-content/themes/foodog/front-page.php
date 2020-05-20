@@ -5,7 +5,6 @@
  */
 
 ?>
-nsm
 <div class="all_featured">
     <?php
     require_once('loop/loop_index.php');?>
