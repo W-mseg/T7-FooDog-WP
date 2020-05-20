@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0ca71f3c-fb52-439b-93b5-0e61d8ba3636" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/front-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/page-community.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/page-community.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
