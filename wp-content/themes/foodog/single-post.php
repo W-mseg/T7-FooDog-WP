@@ -14,28 +14,30 @@ get_header();
 ?>
 <div class="container">
     <div class="row">
-        <div class="col col-md-8">
+        <div class="col-md-8">
 
 
             <?php
             if (have_posts()) :
                 while (have_posts()) :  the_post(); ?>
-                    <div class="categories m-4">
+                    <div class="categories m-2">
                         <?php the_category(' '); ?>
                     </div>
                     <h2 class="single-title mb-4"><?= the_title() ?></h2>
                     <?php the_post_thumbnail('full', ['class' => 'img-fluid mb-4', 'style' => 'height:auto']) ?>
-                    <div class="d-flex bd-highlight border-top border-bottom">
+                    <div class="d-flex bd-highlight border-top border-bottom mb-4">
                         <div class="p-2 flex-grow-1 bd-highlight my-auto"><?php the_author(); ?></div>
                         <div class="p-2 bd-highlight my-auto">COMMENTS</div>
                         <div class="p-2 bd-highlight my-auto">SHARE</div>
                         <div class="p-2 bd-highlight my-auto">SOCIALS</div>
                     </div>
                     <?= the_content() ?>
-                    <?php if (comments_open() || get_comments_number()) {
-                        comments_template();
-                        wp_list_comments();
-                    } ?>
+                    <div class="single-comments border-top">
+                        <?php if (comments_open() || get_comments_number()) {
+                            comments_template();
+                            wp_list_comments();
+                        } ?>
+                    </div>
 
                 <?php endwhile;
                 wp_reset_query(); ?>
@@ -44,7 +46,7 @@ get_header();
                 <h1>Pas d'articles</h1>
             <?php endif; ?>
         </div>
-        <div class="col col-md-4">
+        <div class="col-md-4">
         </div>
     </div>
 </div>
