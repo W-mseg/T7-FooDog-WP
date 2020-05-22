@@ -1,7 +1,7 @@
 <?php
 $stick=get_option('sticky_posts');
  $recent_post = wp_get_recent_posts(array(
-     'numberposts'=>2,
+     'numberposts'=>3,
      'post_status'=>'publish',
      'post__in'=> $stick,
  ));
@@ -9,7 +9,7 @@ $stick=get_option('sticky_posts');
 if (have_posts()):
  foreach ($recent_post as $post): ?>
 
-  <div class="card" style="width: 500px;">
+  <div class="card featured_card" style="width: 500px;">
 
    <a href="<?= get_permalink($post['ID'])?>">
     <img
