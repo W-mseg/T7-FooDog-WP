@@ -26,7 +26,8 @@ get_header();
                     <h2 class="single-title mb-4"><?= the_title() ?></h2>
                     <?php the_post_thumbnail('full', ['class' => 'img-fluid mb-4', 'style' => 'height:auto']) ?>
                     <div class="d-flex bd-highlight border-top border-bottom mb-4">
-                        <div class="p-2 flex-grow-1 bd-highlight my-auto"><?php the_author(); ?></div>
+                        <div class="p-2 flex-grow-1 bd-highlight my-auto"><?php get_avatar(get_the_author_meta('ID'), 32);
+                                                                            the_author(); ?></div>
                         <div class="p-2 bd-highlight my-auto">COMMENTS</div>
                         <div class="p-2 bd-highlight my-auto">SHARE</div>
                         <div class="p-2 bd-highlight my-auto">SOCIALS</div>
