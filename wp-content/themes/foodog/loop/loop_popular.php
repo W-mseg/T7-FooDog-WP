@@ -1,36 +1,26 @@
-<?php
-$stick=get_option('sticky_posts');
-$recent_post = wp_get_recent_posts(array(
-    'posts_per_page' => 3,
-    'meta_key' => 'wpb_post_views_count',
-    'orderby' => 'meta_value_num',
-    'order' => 'DESC'
-));
-?><div class="popular_article"><?php
-if (have_posts()):
-    foreach ($recent_post as $post): ?>
 
-        <div class="card featured_card" style="width: 500px;">
+<?php $popular = new WP_Query('orderby=comment_count&posts_per_page=3&ignore_sticky_posts=1'); ?>
 
-            <a href="<?= get_permalink($post['ID'])?>">
-                <img
-                    class="card-img-top"
-                    src="<?= get_the_post_thumbnail($post['ID']); ?>
+
+<?php while ($popular->have_posts()) : $popular->the_post(); ?>
+
+    <div class="card featured_card" style="width: 500px;">
+
+        <a href="<?= get_permalink()?>">
+            <img
+                class="card-img-top"
+                src="<?= get_the_post_thumbnail(); ?>
                 </a>
 
 
                 <div class="card-body article">
 
-                <h5 class="card-title" style="text-align: center"><?= $post['post_title'] ?></h5>
-                <p class="card-text"><?= $post['post_excerpt'] ?></p>
-                <a href="<?= get_permalink($post['ID']) ?>" class="btn btn-primary">lire plus</a>
+            <h5 class="card-title" style="text-align: center"><?= the_title() ?></h5>
+            <p class="card-text"><?= the_excerpt() ?></p>
+            <a href="<?= the_permalink() ?>" class="btn btn-primary">lire plus</a>
 
-        </div>
-        </div>
+    </div>
+    </div>
 
 
-    <?php endforeach;wp_reset_query(); ?>
-
-<?php else: ?>
-    <h1>Pas d'articles</h1>
-<?php endif;?>
+<?php endwhile; ?>
