@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ca71f3c-fb52-439b-93b5-0e61d8ba3636" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/page-community.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/page-community.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/page-wellness.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/page-wellness.php" afterDir="false" />
-    </list>
+    <list default="true" id="0ca71f3c-fb52-439b-93b5-0e61d8ba3636" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +67,7 @@
       <workItem from="1589964780163" duration="1331000" />
       <workItem from="1590067940515" duration="2085000" />
       <workItem from="1590130741769" duration="502000" />
-      <workItem from="1590151750315" duration="2593000" />
+      <workItem from="1590151750315" duration="3093000" />
     </task>
     <servers />
   </component>
@@ -87,10 +83,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="335" y="155" key="NewPhpClassDialog/0.0.1280.680/0.1080.1920.515@0.0.1280.680" timestamp="1590153969002" />
-    <state x="299" y="302" key="NewPhpFileDialog" timestamp="1590154430084">
+    <state x="299" y="302" key="NewPhpFileDialog" timestamp="1590154839678">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="299" y="302" key="NewPhpFileDialog/0.0.1280.680/0.1080.1920.515@0.0.1280.680" timestamp="1590154430084" />
+    <state x="299" y="302" key="NewPhpFileDialog/0.0.1280.680/0.1080.1920.515@0.0.1280.680" timestamp="1590154839678" />
     <state x="449" y="1309" key="NewPhpFileDialog/0.0.1280.680/0.1080.1920.515@0.1080.1920.515" timestamp="1590140574515" />
     <state x="504" y="1242" key="com.intellij.ide.util.TipDialog" timestamp="1590151764395">
       <screen x="0" y="1080" width="1920" height="515" />
