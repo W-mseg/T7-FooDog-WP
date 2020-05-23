@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0ca71f3c-fb52-439b-93b5-0e61d8ba3636" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/404.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/page-community.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/page-community.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/page-wellness.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/page-wellness.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="Marco" />
+                    <option name="lastUsedInstant" value="1589985323" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1589985318" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
   <component name="ProjectId" id="1cAI3ie0UGMe1pdmZHItdl2ukSc" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -31,6 +56,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -43,6 +69,9 @@
       <option name="presentableId" value="Default" />
       <updated>1589964774740</updated>
       <workItem from="1589964780163" duration="1331000" />
+      <workItem from="1590067940515" duration="2085000" />
+      <workItem from="1590130741769" duration="502000" />
+      <workItem from="1590151750315" duration="2593000" />
     </task>
     <servers />
   </component>
@@ -50,17 +79,29 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="299" y="302" key="NewPhpFileDialog" timestamp="1589978229525">
+    <state x="480" y="266" key="#WordPress" timestamp="1590151798874">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="299" y="302" key="NewPhpFileDialog/0.0.1280.680/0.1080.1920.515@0.0.1280.680" timestamp="1589978229525" />
-    <state x="336" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1589964796562">
+    <state x="480" y="266" key="#WordPress/0.0.1280.680/0.1080.1920.515@0.0.1280.680" timestamp="1590151798874" />
+    <state x="335" y="155" key="NewPhpClassDialog" timestamp="1590153969002">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="336" y="239" key="com.intellij.ide.util.TipDialog/0.0.1280.680/0.1080.1920.515@0.0.1280.680" timestamp="1589964796562" />
+    <state x="335" y="155" key="NewPhpClassDialog/0.0.1280.680/0.1080.1920.515@0.0.1280.680" timestamp="1590153969002" />
+    <state x="299" y="302" key="NewPhpFileDialog" timestamp="1590154430084">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="299" y="302" key="NewPhpFileDialog/0.0.1280.680/0.1080.1920.515@0.0.1280.680" timestamp="1590154430084" />
+    <state x="449" y="1309" key="NewPhpFileDialog/0.0.1280.680/0.1080.1920.515@0.1080.1920.515" timestamp="1590140574515" />
+    <state x="504" y="1242" key="com.intellij.ide.util.TipDialog" timestamp="1590151764395">
+      <screen x="0" y="1080" width="1920" height="515" />
+    </state>
+    <state x="504" y="1242" key="com.intellij.ide.util.TipDialog/0.0.1280.680/0.1080.1920.515@0.0.1280.680" timestamp="1590151764395" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1589976548052">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/0.1080.1920.515@0.0.1280.680" timestamp="1589976548052" />
+  </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>C:\Users\marco\Desktop\github\T7-FooDog-WP</wordpressPath>
   </component>
 </project>
