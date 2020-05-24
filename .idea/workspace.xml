@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0ca71f3c-fb52-439b-93b5-0e61d8ba3636" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/loop/loop_nutrition.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/loop/loop_popular.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/loop/loop_popular.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/page-community.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/page-community.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/page-lifestyle.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/page-lifestyle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/page-nutrition.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/page-nutrition.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/page-wellness.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/page-wellness.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +27,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="Marco" />
-                    <option name="lastUsedInstant" value="1589985323" />
+                    <option name="lastUsedInstant" value="1590340003" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="Release" />
+                    <option name="lastUsedInstant" value="1590339975" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
@@ -84,7 +82,7 @@
       <workItem from="1590151750315" duration="4047000" />
       <workItem from="1590186422048" duration="77000" />
       <workItem from="1590186523328" duration="689000" />
-      <workItem from="1590327892950" duration="11637000" />
+      <workItem from="1590327892950" duration="12446000" />
     </task>
     <servers />
   </component>
