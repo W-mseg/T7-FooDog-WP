@@ -11,17 +11,21 @@
 <body>
 
 
-
-
 <?echo get_search_form()?>
 
-<img src="http://localhost:8000/wp-content/uploads/2020/05/logo-1.jpeg">
+<div class="text-right">
+    <!--Facebook-->
+    <a class="fb-ic mr-3" role="button"><i class="fab fa-lg fa-facebook-f"></i></a>
+    <!--Twitter-->
+    <a class="tw-ic mr-3" role="button"><i class="fab fa-lg fa-twitter"></i></a>
+</div>
+
+<div class="text-center">
+    <img src="http://localhost:8000/wp-content/uploads/2020/05/logo-1.jpeg" class="img-fluid"  >
+</div>
+
 
 <nav class="navbar navbar-expand-lg navbar-light ">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <?php wp_nav_menu([
