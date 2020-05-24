@@ -1,3 +1,10 @@
 <h1>community</h1>
 <?php
-require_once('loop/loop_community.php');
+$arguments = array(
+    'post_per_page'=>3,
+    'category__in'=>8,
+    'orderby'=>'comment_count',
+    'ignore_sticky_posts'=>1
+);
+require_once('loop/loop_general.php');
+
