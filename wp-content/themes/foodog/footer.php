@@ -35,7 +35,9 @@
                 <h5 class="text-uppercase">POPULAR POSTS</h5>
 
                 <div class="popular">
-                    <?php require_once('loop/loop_popular.php')?>
+                    <?php
+                    require_once('loop/loop_popular.php');
+                    ?>
                 </div>
             </div>
             <!-- Grid column -->
