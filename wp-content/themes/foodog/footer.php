@@ -34,18 +34,9 @@
                 <!-- Links -->
                 <h5 class="text-uppercase">POPULAR POSTS</h5>
 
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="#!">Link post + img Marco </a>
-                    </li>
-                    <li>
-                        <a href="#!">Link post + img Marco</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link post + img Marco</a>
-                    </li>
-                </ul>
-
+                <div class="popular">
+                    <?php require_once('loop/loop_popular.php')?>
+                </div>
             </div>
             <!-- Grid column -->
             <!-- Grid column -->
