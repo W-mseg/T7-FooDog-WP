@@ -5,5 +5,5 @@ $arguments = array(
     'orderby'=>'comment_count',
     'ignore_sticky_posts'=>1
 );
-require_once('loop/loop_general.php');
+require_once('loop_general.php');
 

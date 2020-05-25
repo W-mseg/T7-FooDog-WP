@@ -1,3 +1,4 @@
+<?php get_header() ?>
 <h1>nutrition</h1>
 <?php
 $arguments = array(
