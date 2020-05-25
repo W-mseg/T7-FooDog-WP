@@ -21,7 +21,7 @@
 </div>
 
 <div class="text-center">
-    <img src="http://localhost:8000/wp-content/uploads/2020/05/logo-1.jpeg" class="img-fluid"  >
+    <img src="media/logo.JPG" class="img-fluid" >
 </div>
 
 
