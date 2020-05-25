@@ -1,3 +1,4 @@
+<?php get_header() ?>
 <h1>wellness</h1>
 <?php
 $arguments = array(
