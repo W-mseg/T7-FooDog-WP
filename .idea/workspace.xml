@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0ca71f3c-fb52-439b-93b5-0e61d8ba3636" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/page-community.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/page-community.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/page-lifestyle.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/page-lifestyle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/page-nutrition.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/page-nutrition.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/page-wellness.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/page-wellness.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/functions.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +86,7 @@
       <workItem from="1590327892950" duration="13229000" />
       <workItem from="1590389730210" duration="80000" />
       <workItem from="1590389822632" duration="1391000" />
-      <workItem from="1590393502999" duration="3853000" />
+      <workItem from="1590393502999" duration="4431000" />
     </task>
     <servers />
   </component>

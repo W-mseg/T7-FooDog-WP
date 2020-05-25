@@ -50,7 +50,15 @@ function foodog_register_bootstrap()
         false,
         true
     );
-
+    wp_register_script(
+        'fontawesome',
+        'https://kit.fontawesome.com/c9f22d74f7.js',
+        [],
+        false,
+        false
+    );
+    
+    wp_enqueue_script('fontawesome');
     wp_enqueue_script('bootstrapjs1');
     wp_enqueue_script('bootstrapjs2');
     wp_enqueue_script('bootstrapjs3');
