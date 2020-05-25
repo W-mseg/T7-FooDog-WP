@@ -90,6 +90,21 @@ h1 {
   height: 330px;
 }
 
+.latest_article{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.latest_article .card{
+  position: relative;
+  min-height: 600px;
+}
+.popular_article{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 /**
 * end of class articles
  */
