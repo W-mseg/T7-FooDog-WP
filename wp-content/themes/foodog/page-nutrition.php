@@ -2,7 +2,7 @@
 <?php
 $arguments = array(
     'post_per_page'=>8,
-    'category__in'=>8,
+    'category_name'=>'nutrition',
     'orderby'=>'comment_count',
     'ignore_sticky_posts'=>1
 );

@@ -2,7 +2,7 @@
 <?php
 $arguments = array(
     'post_per_page'=>8,
-    'category__in'=>5,
+    'category_name'=>'community',
     'orderby'=>'comment_count',
     'ignore_sticky_posts'=>1
 );
