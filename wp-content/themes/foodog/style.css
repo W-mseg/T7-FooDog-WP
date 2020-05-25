@@ -7,10 +7,6 @@ Author: Team 7
 /*******************************/
 /*           elements         */
 
-* {
-  font-family: "Open Sans", sans-serif;
-}
-
 h1 {
   font-family: "Crimson Text", serif;
 }
@@ -58,6 +54,24 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 130%;
+}
+
+.single-content{
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+}
+
+.avatar{
+  border-radius: 50%;
+  margin: 0.5em;
+}
+
+.meks_ess{
+  margin: 0 !important;
+}
+
+.side-socials{
+  margin-top: 8rem;
 }
 /**
 * classes for articles
