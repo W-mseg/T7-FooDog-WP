@@ -6,6 +6,7 @@ function foodog_support()
     add_theme_support('title-tag');
     add_theme_support('menus');
     register_nav_menu('header', 'En tête');
+    register_nav_menu('footer','Pied de page');
 }
 
 
