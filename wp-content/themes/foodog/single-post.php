@@ -30,7 +30,7 @@ get_header();
                                                                                                                                 the_author(); ?></div>
                         <div class="p-2 bd-highlight my-auto">COMMENTS</div>
                         <div class="p-2 bd-highlight my-auto">SHARE</div>
-                        <div class="p-2 bd-highlight my-auto">SOCIALS</div>
+                        <div class="p-2 bd-highlight my-auto"><?php meks_ess_share();?></div>
                     </div>
                     <div class="single-content">
                         <?= the_content() ?>
@@ -72,6 +72,7 @@ get_header();
             <?php endif; ?>
         </div>
         <div class="col-md-4">
+        <?php   get_template_part('_sidebar');?>
         </div>
     </div>
 </div>
