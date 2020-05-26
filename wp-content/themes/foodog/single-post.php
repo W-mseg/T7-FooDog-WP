@@ -30,10 +30,13 @@ get_header();
                                                                                                                                 the_author(); ?></div>
                         <div class="p-2 bd-highlight my-auto">COMMENTS</div>
                         <div class="p-2 bd-highlight my-auto">SHARE</div>
-                        <div class="p-2 bd-highlight my-auto"><?php meks_ess_share();?></div>
+                        <div class="p-2 bd-highlight my-auto"><?php meks_ess_share(); ?></div>
                     </div>
                     <div class="single-content">
                         <?= the_content() ?>
+                    </div>
+                    <div class="single-mail-list">
+                    <?= do_shortcode("[email-subscribers-form id='1']"); ?>
                     </div>
                     <div class="sinlge-article-nav border-top">
                         <div class="row">
@@ -42,7 +45,7 @@ get_header();
                                 <?= $prev_post->post_title ?>
                             </div>
                             <div class="col-6">
-                                <?php $next_post = get_next_post(); 
+                                <?php $next_post = get_next_post();
                                 ?>
                                 <?= $next_post->post_title ?>
                             </div>
@@ -72,7 +75,7 @@ get_header();
             <?php endif; ?>
         </div>
         <div class="col-md-4">
-        <?php   get_template_part('_sidebar');?>
+            <?php get_template_part('_sidebar'); ?>
         </div>
     </div>
 </div>

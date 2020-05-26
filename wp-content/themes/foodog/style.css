@@ -73,6 +73,15 @@ h1 {
 .side-socials{
   margin-top: 8rem;
 }
+.apsc-each-profile{
+  width: 80%;
+  float: none !important;
+  margin:0 !important;
+}
+
+.apsc-icons-wrapper{
+  margin-bottom: 2rem;
+}
 /**
 * classes for articles
 */
