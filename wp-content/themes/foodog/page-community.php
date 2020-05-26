@@ -1,8 +1,9 @@
+<?php get_header() ?>
 <h1>community</h1>
 <?php
 $arguments = array(
-    'post_per_page'=>3,
-    'category__in'=>8,
+    'post_per_page'=>8,
+    'category_name'=>'community',
     'orderby'=>'comment_count',
     'ignore_sticky_posts'=>1
 );

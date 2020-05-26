@@ -3,6 +3,7 @@
 if (have_posts()):
     $recent_post = wp_get_recent_posts(array(
         'numberposts'=>4,
+        'ignore_sticky_posts'=>1,
         'post_status'=>'publish',
     ));
 
