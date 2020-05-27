@@ -16,7 +16,7 @@
             <div class="col-md-3 mb-md-0 mb-3">
 
                 <!-- Links -->
-                <h5 class="text-uppercase">CATEGORIES</h5>
+                <h5 class="text-uppercase">categories</h5>
 
                 <?php wp_nav_menu([
                     'theme_location'=>'footer',
@@ -32,7 +32,7 @@
             <div class="col-md-3 mb-md-0 mb-3">
 
                 <!-- Links -->
-                <h5 class="text-uppercase">POPULAR POSTS</h5>
+                <h5 class="text-uppercase">popular posts</h5>
 
                 <div class="popular">
                     <?php
@@ -45,7 +45,7 @@
             <div class="col-md-6 mt-md-0 mt-3">
 
                 <!-- Content -->
-                <h5 class="text-uppercase">INSTAGRAM</h5>
+                <h5 class="text-uppercase">instagram</h5>
                 <p>API insta (or instagram feed plugin?)</p>
 
             </div>
@@ -66,7 +66,6 @@
         <!--Instagram-->
         <a class="btn-floating btn-lg btn-ins" type="button" role="button"><i class="fab fa-instagram"></i></a>
 
-        include social medias and homme button > JS?
     </div>
     <!-- Copyright -->
 
