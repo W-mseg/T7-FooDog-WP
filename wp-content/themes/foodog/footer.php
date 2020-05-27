@@ -1,4 +1,6 @@
 </div>
+
+<?php wp_footer() ?>
 <!-- Footer -->
 <footer class="page-footer font-small blue pt-4">
 
@@ -72,8 +74,6 @@
 
 </footer>
 <!-- Footer -->
-
-<?php wp_footer() ?>
 </body>
 </html>
 

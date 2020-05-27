@@ -1,7 +1,8 @@
 <?php
 
 $query = new WP_Query($arguments);
-
+?>
+<div class="container_posts"> <?php
 while
 ($query->have_posts()) : $query->the_post(); ?>
 
