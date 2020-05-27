@@ -5,10 +5,6 @@
  */
 
 ?>
-<div class="container feature-section">
-    <div class="row">
-        <div class="col-12 col-md-8 col-xl-8">
-
             <div class="all_featured">
                 <?php
     require_once('loop/loop_index.php');?>
@@ -19,14 +15,6 @@
         ?>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-2 col-xl-2"></div>
-                <div class="col-md-2 col-xl-2"></div>
-            </div>
-        </div>
-        <div class="col-md-4 col-xl-4"></div>
-    </div>
-</div>
 <br>
 <br>
 <h2>featured section</h2>

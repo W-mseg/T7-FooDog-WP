@@ -80,10 +80,11 @@ h1 {
 .all_featured{
   display: flex;
   justify-content: space-evenly;
+  max-height: 500px;
 }
 
 .featured {
-  max-width: 50%;
+  /*max-width: 50%;*/
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
