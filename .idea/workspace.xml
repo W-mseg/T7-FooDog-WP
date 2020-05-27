@@ -4,7 +4,8 @@
     <list default="true" id="0ca71f3c-fb52-439b-93b5-0e61d8ba3636" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/loop/loop_popular.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/loop/loop_popular.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,9 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,10 +53,10 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -88,12 +87,15 @@
       <workItem from="1590327892950" duration="13229000" />
       <workItem from="1590389730210" duration="80000" />
       <workItem from="1590389822632" duration="1391000" />
-      <workItem from="1590393502999" duration="10309000" />
+      <workItem from="1590393502999" duration="11284000" />
+      <workItem from="1590426205741" duration="1235000" />
+      <workItem from="1590434374344" duration="157000" />
+      <workItem from="1590532678674" duration="1026000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Plugins" timestamp="1590186497448">
@@ -104,6 +106,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="480" y="266" key="#WordPress/0.0.1280.680/0.1080.1920.515@0.0.1280.680" timestamp="1590151798874" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1590434529171">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680/0.1080.1920.515@0.0.1280.680" timestamp="1590434529171" />
     <state x="335" y="155" key="NewPhpClassDialog" timestamp="1590339211643">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -117,10 +123,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/0.1080.1920.515@0.0.1280.680" timestamp="1590389809151" />
-    <state x="504" y="1242" key="com.intellij.ide.util.TipDialog" timestamp="1590393533191">
+    <state x="504" y="1242" key="com.intellij.ide.util.TipDialog" timestamp="1590565807764">
       <screen x="0" y="1080" width="1920" height="515" />
     </state>
-    <state x="504" y="1242" key="com.intellij.ide.util.TipDialog/0.0.1280.680/0.1080.1920.515@0.0.1280.680" timestamp="1590393533191" />
+    <state x="504" y="1242" key="com.intellij.ide.util.TipDialog/0.0.1280.680/0.1080.1920.515@0.0.1280.680" timestamp="1590565807764" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1590389765186">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

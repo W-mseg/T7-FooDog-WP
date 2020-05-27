@@ -10,18 +10,22 @@
 </head>
 <body>
 
-
 <?echo get_search_form()?>
 
+<!--Header Social & search icons-->
 <div class="text-right">
     <!--Facebook-->
     <a class="fb-ic mr-3" role="button"><i class="fab fa-lg fa-facebook-f"></i></a>
     <!--Twitter-->
     <a class="tw-ic mr-3" role="button"><i class="fab fa-lg fa-twitter"></i></a>
+    <!--Instagram-->
+    <a class="ins-ic mr-3" role="button"><i class="fab fa-lg fa-instagram"></i></a>
+    <!--search-->
+    <a><i class="fas fa-search" aria-hidden="false"></i></a>
 </div>
 
 <div class="text-center">
-    <img src="media/logo.JPG" class="img-fluid" >
+    <img src="http://localhost:8000/wp-content/uploads/2020/05/logo.jpeg" class="img-fluid"  >
 </div>
 
 
@@ -35,25 +39,9 @@
 
         ])
         ?>
-
-        <!--
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">NUTRITION <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">WELLNESS</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">LIFESTYLE</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">COMMUNITY</a>
-            </li>
-        </ul>
-        -->
     </div>
 </nav>
+
 
 <div class="container">
 
