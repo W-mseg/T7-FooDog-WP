@@ -21,11 +21,7 @@
 </div>
 
 <div class="text-center">
-<<<<<<< HEAD
-    <img src="http://localhost:8000/wp-content/uploads/2020/05/logo.jpeg" class="img-fluid"  >
-=======
     <img src="media/logo.JPG" class="img-fluid" >
->>>>>>> 51bb20cd36595e9e421c9f1e72f7937920c3571c
 </div>
 
 
