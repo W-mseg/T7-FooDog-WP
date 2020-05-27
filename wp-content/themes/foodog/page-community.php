@@ -18,3 +18,4 @@ require_once('loop/loop_general.php');
         </div>
     </div>
 </div>
+<?get_footer();?>

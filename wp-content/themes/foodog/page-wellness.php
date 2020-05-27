@@ -8,3 +8,4 @@ $arguments = array(
     'ignore_sticky_posts'=>1
 );
 require_once('loop/loop_general.php');
+get_footer();
