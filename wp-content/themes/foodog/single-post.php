@@ -35,8 +35,10 @@ get_header();
                     <div class="single-content">
                         <?= the_content() ?>
                     </div>
-                    <div class="single-mail-list">
-                    <?= do_shortcode("[email-subscribers-form id='1']"); ?>
+                    <div class="single-mail-list my-4">
+                        <h3>Subscribe to The Digest Newsletter</h3>
+                        <p>Get health and wellness tips about your dog delivered to your inbox.</p>
+                        <?= do_shortcode("[email-subscribers-form id='1']"); ?>
                     </div>
                     <div class="sinlge-article-nav border-top">
                         <div class="row">
