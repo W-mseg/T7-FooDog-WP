@@ -83,6 +83,16 @@ function foodog_category_class()
     return $output;
 }
 
+function foodog_menu_class($classes) {
+    $classes[]='nav-item';
+    return $classes;
+}
+
+function foodog_menu_link_class($attrs) {
+    $attrs['class']= 'nav-link';
+    return $attrs;
+}
+
 
 
 add_theme_support('post-thumbnails');
@@ -91,5 +101,10 @@ add_action('after_setup_theme', 'foodog_support');
 add_action('loop_start', 'foodog_remove_share');
 add_filter('document_title_separator', 'foodog_title_separator');
 add_filter('the_category', 'foodog_category_class');
+add_filter('nav_menu_css_class','foodog_menu_class');
+add_filter('nav_menu_link_attributes','foodog_menu_link_class');
 require_once('functions/comments_function.php');
 CustomComments::addCustomComments();
+
+
+

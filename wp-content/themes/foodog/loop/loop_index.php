@@ -1,8 +1,10 @@
 <?php
 
 if (have_posts()):
+    $stick=get_option('sticky_posts');
         $recent_post = wp_get_recent_posts(array(
             'numberposts'=>1,
+            'post__in'=>$stick,
             'post_status'=>'publish',
         ));
 
