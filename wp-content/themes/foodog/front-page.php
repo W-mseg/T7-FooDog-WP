@@ -7,7 +7,7 @@
 ?>
 <div class="all_featured">
     <?php
-    require_once('loop/loop_index.php');?>
+    require_once('loop/loop_index.php'); ?>
 
     <div class="featured">
         <?php
@@ -17,12 +17,21 @@
 </div>
 <br>
 <br>
-<h2>featured section</h2>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <h2>featured section</h2>
 
-<?php require_once('loop/loop_featured.php')  ?>
-<br><br>
+            <?php require_once('loop/loop_featured.php')  ?>
+            <br><br>
 
-<h2>Latest posts</h2>
-<br>
-<?php require_once('loop/loop_latest.php') ?>
+            <h2>Latest posts</h2>
+            <br>
+            <?php require_once('loop/loop_latest.php') ?>
+        </div>
+        <div class="col-md-4">
+            <?php get_template_part('_sidebar'); ?>
+        </div>
+    </div>
+</div>
 <?php get_footer() ?>
