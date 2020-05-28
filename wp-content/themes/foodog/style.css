@@ -77,6 +77,31 @@ footer{
 .side-socials{
   margin-top: 8rem;
 }
+.apsc-each-profile{
+  width: 80%;
+  float: none !important;
+  margin:0 !important;
+}
+
+.single-mail-list{
+  text-align: center;
+}
+
+.es_subscription_form{
+  display: flex;
+  justify-content: center;
+}
+
+.es_subscription_form_submit{
+  background-color: coral;
+  color: white;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.apsc-icons-wrapper{
+  margin-bottom: 2rem;
+}
 /**
 * classes for articles
 */
