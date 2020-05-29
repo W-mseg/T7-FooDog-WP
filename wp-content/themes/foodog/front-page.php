@@ -6,13 +6,18 @@
 
 ?>
 <div class="all_featured">
-    <?php
-    require_once('loop/loop_index.php'); ?>
+    <div class="row">
+        <div class="col-md-6">
+            <?php require_once('loop/loop_index.php'); ?>
+        </div>
+        <div class="featured col-md-6">
+            <div class="row">
+                <?php
+                require_once('loop/loop_index_mini.php');
+                ?>
+            </div>
 
-    <div class="featured">
-        <?php
-        require_once('loop/loop_index_mini.php');
-        ?>
+        </div>
     </div>
 </div>
 <br>
