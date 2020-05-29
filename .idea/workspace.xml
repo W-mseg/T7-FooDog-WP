@@ -4,8 +4,30 @@
     <list default="true" id="0ca71f3c-fb52-439b-93b5-0e61d8ba3636" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/05/coffee-100x100.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2020/05/coffee-100x100.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/05/coffee-1024x614.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2020/05/coffee-1024x614.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/05/coffee-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2020/05/coffee-150x150.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/05/coffee-1536x922.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2020/05/coffee-1536x922.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/05/coffee-300x180.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2020/05/coffee-300x180.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/05/coffee-768x461.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2020/05/coffee-768x461.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/05/coffee.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2020/05/coffee.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/05/espresso-100x100.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2020/05/espresso-100x100.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/05/espresso-1024x614.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2020/05/espresso-1024x614.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/05/espresso-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2020/05/espresso-150x150.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/05/espresso-1536x922.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2020/05/espresso-1536x922.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/05/espresso-300x180.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2020/05/espresso-300x180.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/05/espresso-768x461.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2020/05/espresso-768x461.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/05/espresso.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2020/05/espresso.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/05/picdefault-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2020/05/picdefault-150x150.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/05/picdefault-300x198.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2020/05/picdefault-300x198.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/05/picdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2020/05/picdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/05/sandwich-100x100.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2020/05/sandwich-100x100.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/05/sandwich-1024x614.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2020/05/sandwich-1024x614.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/05/sandwich-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2020/05/sandwich-150x150.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/05/sandwich-1536x922.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2020/05/sandwich-1536x922.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/05/sandwich-300x180.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2020/05/sandwich-300x180.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/05/sandwich-768x461.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2020/05/sandwich-768x461.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2020/05/sandwich.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2020/05/sandwich.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +116,7 @@
       <workItem from="1590532678674" duration="1026000" />
       <workItem from="1590605098603" duration="1392000" />
       <workItem from="1590739382867" duration="5117000" />
-      <workItem from="1590750889929" duration="6464000" />
+      <workItem from="1590750889929" duration="8120000" />
     </task>
     <servers />
   </component>
