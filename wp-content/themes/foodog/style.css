@@ -144,13 +144,8 @@ a.custom-card:hover {
   justify-content: space-around;
 }*/
 /*! classe Jean */
-.bigPost {
-
-}
-
-.littlePost {
-  height: 10%;
-  width: auto;
+.card-title{
+  background-color: red;
 }
 /**
 * end of class articles
