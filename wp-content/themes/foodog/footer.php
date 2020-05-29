@@ -54,7 +54,6 @@
         </div>
         <!-- Footer Links -->
 
-        <!-- Copyright -->
         <div class="footer-social text-right">
 
             <!--Facebook-->
