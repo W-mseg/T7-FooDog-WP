@@ -1,28 +1,31 @@
 <?php
 
 if (have_posts()) :
-    $recent_post = wp_get_recent_posts(array(
-        'numberposts' => 6,
-        'post_status' => 'publish',
-    ));
+
+    $arguments = array(
+        'post_per_page' => 6,
+        'orderby' => 'date',
+        'order'=>'DESC',
+        'post_status'=>'publish',
+    );
+    $query = new WP_Query($arguments);
 ?>
-    <?php foreach ($recent_post as $post) : ?>
+    <?php while($query->have_posts()):$query->the_post(); ?>
 
         <div class="custom-card row">
-            <a href="<?= get_permalink($post['ID']) ?>" class="col-6">
-                <?= get_the_post_thumbnail($post['ID'], 'thumnail', ['class' => 'img-fluid', 'style' => 'height:auto']); ?>
+            <a href="<?= get_permalink() ?>" class="col-6">
+                <?= get_the_post_thumbnail(); ?>
             </a>
             <div class="col-6">
                 <?php the_category(' '); ?>
-                <h5 class="card-title"><?= $post['post_title'] ?></h5>
-                <p><?= get_the_content('', false, $post['ID']) ?></p>
+                <h5 class="card-title"><?= the_title() ?></h5>
+
 
             </div>
         </div>
 
 
-    <?php endforeach;
-    wp_reset_query(); ?>
-<?php else : ?>
+    <?php endwhile;
+else : ?>
     <h1>Pas d'articles</h1>
 <?php endif; ?>
