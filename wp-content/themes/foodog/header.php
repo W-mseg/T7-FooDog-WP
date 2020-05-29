@@ -11,7 +11,7 @@
 <body>
 
     <!--Header Social & search icons-->
-    <div class="text-right">
+    <div class="socialSearch">
         <!--Facebook-->
         <a class="fb-ic mr-3" role="button"><i class="fab fa-lg fa-facebook-f"></i></a>
         <!--Twitter-->
@@ -19,7 +19,7 @@
         <!--Instagram-->
         <a class="ins-ic mr-3" role="button"><i class="fab fa-lg fa-instagram"></i></a>
         <!--search-->
-        <?php get_search_form(); ?>
+
     </div>
 
     <!--Logo Foodog-->
