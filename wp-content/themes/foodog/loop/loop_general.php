@@ -9,7 +9,7 @@ while
     <div class="card featured_card" style="width: 500px;">
 
         <a href="<?= get_permalink() ?>">
-            <img class="card-img-top" src="<?= get_the_post_thumbnail()?>">
+            <?php the_post_thumbnail('full', ['class' => 'img-fluid mb-4', 'style' => 'height:auto']) ?>
         </a>
 
 
