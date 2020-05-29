@@ -15,7 +15,7 @@ if (have_posts()) :
         <div class="custom-card row">
             <a href="<?= get_permalink() ?>" class="col-6">
                 <?php the_post_thumbnail('full', ['class' => 'img-fluid mb-4', 'style' => 'height:auto']) ?>
-            </a>
+            </a> 
             <div class="col-6">
                 <h5 class="card-title"><?= the_title() ?></h5>
                 <?php the_category(' '); ?>
