@@ -98,26 +98,6 @@ h1 {
 .apsc-icons-wrapper {
   margin-bottom: 2rem;
 }
-/**
-* classes for articles
-*/
-
-/* .all_featured {
-  display: flex;
-  justify-content: space-evenly;
-  height: 500px;
-}
-
-.featured {
-  /*max-width: 50%;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-} */
-
-/* .featured img {
-  height: 150px;
-} */
 
 .card {
   border: none;
@@ -142,11 +122,9 @@ a.custom-card:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-}*/
+}
 /*! classe Jean */
 .card-title{
   background-color: red;
 }
-/**
-* end of class articles
- */
+
