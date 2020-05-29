@@ -25,3 +25,6 @@ if (have_posts()) :
 <?php else : ?>
     <h1>Pas d'articles</h1>
 <?php endif; ?>
+
+
+
