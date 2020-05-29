@@ -41,6 +41,7 @@
         </div>
     </nav>
 
+
     <!--Beginning posts-->
     <div class="container">
 
