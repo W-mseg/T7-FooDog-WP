@@ -11,9 +11,9 @@ if (have_posts()) :
 
         <a href="<?= get_permalink($post['ID']) ?>" class="custom-card col-md-6">
             <div class="card">
-                <?= get_the_post_thumbnail($post['ID'], 'thumnail', ['class' => 'img-fluid mb-4', 'style' => 'height:auto']); ?>
+                <?= get_the_post_thumbnail($post['ID'], 'thumnail', ['class' => 'img-fluid', 'style' => 'height:auto']); ?>
                 <div class="card-body">
-                    <h5 class="card-title">Wrapped with a tag</h5>
+                    <h5 class="card-title"><?= $post['post_title'] ?></h5>
                 </div>
             </div>
         </a>
