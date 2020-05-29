@@ -34,7 +34,7 @@ Beaucoup de difficulté pour ce projet :
 
 * Bug survenu à la finalisation du travail malgrés 6 branches crées pour bien travaillé séparemment et ne pas marcher sur le travail d'un autre.
 
-* Le transfer de la base de donnée entre nous lors de la finalisation
+* Le transfer de la base de donnée entre nous lors de la finalisation. Et de plus la base de données nous donne une bonne leçon à chacun au vus des extensions, images, code, ect ...
 
 ## Technos utilisées
 
