@@ -1,14 +1,15 @@
 <?php
 
 if (have_posts()) :
-    $recent_post = wp_get_recent_posts(array(
-        'numberposts' => 3,
+
+    $arguments = array(
+        'post_per_page' => 3,
         'post_status' => 'publish',
         'orderby' => 'comment_count',
-        'order' => 'DESC'
-    ));
-
-    foreach ($recent_post as $post) : ?>
+        'order'=>'DESC'
+    );
+    $query = new WP_Query($arguments);
+    while($query->have_posts()) : $query->the_post(); ?>
 
         <div class="card" style="width: 500px;">
 
@@ -27,9 +28,8 @@ if (have_posts()) :
         </div>
 
 
-    <?php endforeach;
-    wp_reset_query(); ?>
+    <?php endwhile;
 
-<?php else : ?>
+    else : ?>
     <h1>Pas d'articles</h1>
 <?php endif; ?>

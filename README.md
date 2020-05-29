@@ -16,11 +16,11 @@ Lors de l'annoncement du projet le jeudi 14, nous avons directement réalisé un
 Lors de la première semaine, nous avons départager le travail entre nous, sans aucun problème jusque là.
 Le premier jour arrive l'installation de la DB + PHP, Marco et Stephane n'ont aucun problème mais Jean et Luciano ont eu BEAUCOUP de mal, ce qui nous a ammené à la solution Docker qui a absolument réglé tout nos problèmes en 1200 secondes.
 
-le groupe s'entraide bien durant tout le projet, peut importe si certains ont manqué d'internet (merci VOO), eu des priorités personnels, les membres répondait toujours présent. 
+le groupe s'entraide bien durant tout le projet, peut importe si certains ont manqué d'internet (merci VOO), eu des priorités personnels, les membres répondait toujours présent.
 
 Ensuite le groupe continua sur une bonne lancée jusqu'au dernier jour.
 
-## Difficultés rencontrées 
+## Difficultés rencontrées
 
 Beaucoup de difficulté pour ce projet :
 
@@ -34,7 +34,7 @@ Beaucoup de difficulté pour ce projet :
 
 * Bug survenu à la finalisation du travail malgrés 6 branches crées pour bien travaillé séparemment et ne pas marcher sur le travail d'un autre.
 
-* Le transfer de la base de donnée entre nous lors de la finalisation
+* Le transfer de la base de donnée entre nous lors de la finalisation. Et de plus la base de données nous donne une bonne leçon à chacun au vus des extensions, images, code, ect ...
 
 ## Technos utilisées
 
@@ -49,3 +49,9 @@ Beaucoup de difficulté pour ce projet :
 ![image](imagesreadme/infositewp.png)
 
 ![image](imagesreadme/adminmdpwp.png)
+
+## screens
+
+![image](imagesreadme/nique1.png)
+![image](imagesreadme/nique2.png)
+![image](imagesreadme/nique3.png)
