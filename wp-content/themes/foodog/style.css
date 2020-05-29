@@ -128,3 +128,22 @@ a.custom-card:hover {
   background-color: red;
 }
 
+/*! classe Luciano */
+
+.container-fluid{
+  background-color: #37393f;
+}
+
+h5{
+  color: #88939a;
+}
+
+.footer-social{
+  background-color: rgba(31,31,35,0.98);
+}
+
+a.nav-link{
+  color: #ffffff;
+}
+
+
