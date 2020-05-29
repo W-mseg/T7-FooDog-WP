@@ -12,13 +12,13 @@
     while
         ($query->have_posts()) : $query->the_post(); ?>
 
-        <a href="<?= get_permalink() ?>" class="custom-card">
-            <div class="card">
+        <a href="<?= get_permalink() ?>" class="custom-card-big">
+            <div class="card-big">
                 <?= get_the_post_thumbnail(); ?>
-                <div class="card-body">
+                <div class="card-body-big">
 
                     <?php the_category() ?>
-                    <h5 class="card-title"><?= the_title() ?></h5>
+                    <h5 class="card-title-big"><?= the_title() ?></h5>
                 </div>
             </div>
         </a>
