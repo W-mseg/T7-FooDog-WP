@@ -13,7 +13,7 @@ if (have_posts()) :
             <div class="card">
                 <?= get_the_post_thumbnail($post['ID'], 'thumnail', ['class' => 'img-fluid', 'style' => 'height:auto']); ?>
                 <div class="card-body">
-                    <h5 class="card-title"><?= $post['post_title'] ?></h5>
+                    <h5 class="card-title-little"><?= $post['post_title'] ?></h5>
                 </div>
             </div>
         </a>
@@ -25,3 +25,6 @@ if (have_posts()) :
 <?php else : ?>
     <h1>Pas d'articles</h1>
 <?php endif; ?>
+
+
+

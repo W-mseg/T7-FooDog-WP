@@ -1,28 +1,33 @@
 <?php
+
 $stick = get_option('sticky_posts');
-$recent_post = wp_get_recent_posts(array(
-    'numberposts' => 3,
+$arguments = array(
+    'post_per_page' => 3,
     'post_status' => 'publish',
+    'orderby' => 'comment_count',
     'post__in' => $stick,
-));
+);
+
+$query = new WP_Query($arguments);
+
 
 if (have_posts()) :
-    foreach ($recent_post as $post) : ?>
+    while ($query->have_posts()) : $query->the_post();
+
+?>
         <div class="custom-card row">
-            <a href="<?= get_permalink($post['ID']) ?>" class="col-6">
-                    <?= get_the_post_thumbnail($post['ID'], 'thumnail', ['class' => 'img-fluid', 'style' => 'height:auto']); ?>
+            <a href="<?= get_permalink() ?>" class="col-6">
+                <?php the_post_thumbnail('full', ['class' => 'img-fluid mb-4', 'style' => 'height:auto']) ?>
             </a>
             <div class="col-6">
+                <h5 class="card-title"><?= the_title() ?></h5>
                 <?php the_category(' '); ?>
-                <h5 class="card-title"><?= $post['post_title'] ?></h5>
-                <p><?= get_the_content('', false, $post['ID']) ?></p>
-
+                <p><?= the_content('') ?></p>
             </div>
         </div>
 
-    <?php endforeach;
-    wp_reset_query(); ?>
+    <?php endwhile;
 
-<?php else : ?>
+else : ?>
     <h1>Pas d'articles</h1>
 <?php endif; ?>

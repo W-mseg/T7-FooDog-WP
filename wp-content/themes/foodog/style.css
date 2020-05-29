@@ -10,6 +10,10 @@ Author: Team 7
 h1 {
   font-family: "Crimson Text", serif;
 }
+footer{
+  background-color: gray;
+  height: 300px;
+}
 /*******************************/
 /*             Classes         */
 .category {
@@ -124,8 +128,24 @@ a.custom-card:hover {
   justify-content: space-around;
 }
 /*! classe Jean */
-.card-title{
-  background-color: red;
+.card-title-big{
+  font-size: 160%;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+.card-title-little{
+  font-size: 120%;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+.card-body-big {
+  
+}
+.custom-card-big {
+  
+}
+.card-big{
+  
 }
 
 /*! classe Luciano */

@@ -5,3 +5,4 @@ wp-content/uploads/
 *.xml
 .idea/
 *.xml
+.idea/workspace.xml

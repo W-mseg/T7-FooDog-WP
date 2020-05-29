@@ -1,6 +1,8 @@
-    </div>
-    <!-- Footer -->
-    <footer class="page-footer">
+</div>
+
+<?php wp_footer() ?>
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
 
         <!-- Footer Links -->
         <div class="container-fluid text-center text-md-left">
