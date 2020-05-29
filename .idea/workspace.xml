@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0ca71f3c-fb52-439b-93b5-0e61d8ba3636" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/loop/loop_featured.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/loop/loop_featured.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/loop/loop_general.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/loop/loop_general.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/loop/loop_index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/loop/loop_index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/foodog/loop/loop_latest.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/foodog/loop/loop_latest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +95,7 @@
       <workItem from="1590434374344" duration="157000" />
       <workItem from="1590532678674" duration="1026000" />
       <workItem from="1590565686133" duration="2987000" />
-      <workItem from="1590736631420" duration="4320000" />
+      <workItem from="1590736631420" duration="8698000" />
     </task>
     <servers />
   </component>
