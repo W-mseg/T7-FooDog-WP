@@ -76,15 +76,15 @@ h1 {
 /**
 * classes for articles
 */
-
+/*
 .all_featured{
   display: flex;
   justify-content: space-evenly;
-  max-height: 500px;
+  height: 500px;
 }
 
 .featured {
-  /*max-width: 50%;*/
+  /*max-width: 50%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -112,8 +112,16 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}*/
+/*! classe Jean */
+.bigPost {
+
 }
 
+.littlePost {
+  height: 10%;
+  width: auto;
+}
 /**
 * end of class articles
  */

@@ -5,16 +5,18 @@
  */
 
 ?>
-            <div class="all_featured">
+<div class="container">
+    <div class="row">
+            <div class="bigPost">
                 <?php
     require_once('loop/loop_index.php');?>
 
-                <div class="featured">
+                <div class="littlePost row">
                     <?php
         require_once('loop/loop_index_mini.php');
         ?>
                 </div>
-            </div>
+            </div></div></div>
 <br>
 <br>
 <h2>featured section</h2>
