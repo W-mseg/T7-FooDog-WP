@@ -18,7 +18,7 @@
         <!--Instagram-->
         <a class="ins-ic mr-3" role="button"><i class="fab fa-lg fa-instagram"></i></a>
         <!--search-->
-        <a><i class="fas fa-search" aria-hidden="false"></i></a>
+        <?php get_search_form(); ?>
     </div>
 
     <!--Logo Foodog-->

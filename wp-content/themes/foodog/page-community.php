@@ -1,5 +1,8 @@
 <?php get_header() ?>
 <h1>community</h1>
+<div class="container">
+    <div class="row">  
+        <div class="col-12 col-md-8 col-xl-8">
 <?php
 $arguments = array(
     'post_per_page' => 8,
