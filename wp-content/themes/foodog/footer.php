@@ -27,7 +27,7 @@
                 </div>
 
                 <!-- Grid column -->
-                <div class="col-md-3 mb-md-0 mb-3">
+                <div class="col-md-5 mb-md-0 mb-3">
 
                     <!-- Links popular posts -->
                     <h5 class="text-uppercase">popular posts</h5>
@@ -40,14 +40,14 @@
                 </div>
 
                 <!-- Grid column -->
-                <div class="col-md-6 mt-md-0 mt-3">
+                <div class="col-md-4 mt-md-0 mt-3">
 
                     <!-- Content Instagram -->
                     <h5 class="text-uppercase">instagram</h5>
 
                     <!-- InstagramWidget -->
                     <script src="https://snapwidget.com/js/snapwidget.js"></script>
-                    <iframe src="https://snapwidget.com/embed/831830" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:50%; "></iframe>
+                    <iframe src="https://snapwidget.com/embed/831830" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:80%; "></iframe>
                 </div>
 
             </div>

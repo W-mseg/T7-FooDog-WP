@@ -150,12 +150,32 @@ a.custom-card:hover {
 
 /*! classe Luciano */
 
+.socialSearch {
+  text-align: right;
+  margin-top: 50px;
+  margin-right: 30px;
+}
+
+.navbar-expand-lg {
+  -ms-flex-flow: row nowrap;
+  flex-flow: column-reverse;
+  -ms-flex-pack: start;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-bottom: 0.01px solid #e3e1e0;
+}
+
 .container-fluid{
   background-color: #37393f;
+  padding-top: 45px;
+  padding-bottom: 40px;
+  padding-left: 70px;
+  padding-right: 60px;
 }
 
 h5{
-  color: #88939a;
+  color: #bcbcbc;
+  padding-left: 20px;
 }
 
 .footer-social{
@@ -165,5 +185,37 @@ h5{
 a.nav-link{
   color: #ffffff;
 }
+
+footer .fa-facebook-f:before {
+  content: "\f39e";
+  border-radius: 50%;
+  background-color: #37393f;
+  color: white;
+}
+
+footer .fa-twitter:before {
+  content: "\f099";
+  border-radius: 50%;
+  background-color: #37393f;
+  color: white;
+}
+
+footer .fa-instagram:before {
+  content: "\f16d";
+  border-radius: 50%;
+  background-color: #37393f;
+  color: white;
+}
+
+footer .navbar-nav .nav-link {
+  padding-bottom: 10px;
+  border-bottom: 0.5px solid #e3e1e0;
+  max-width: 100%;
+}
+
+.footer-social{
+  padding-bottom: 40px;
+}
+
 
 

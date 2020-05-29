@@ -1228,9 +1228,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -1309,13 +1307,14 @@
       <workItem from="1590426205741" duration="1235000" />
       <workItem from="1590434374344" duration="157000" />
       <workItem from="1590532678674" duration="1026000" />
-      <workItem from="1590565686133" duration="2987000" />
-      <workItem from="1590736631420" duration="8698000" />
+      <workItem from="1590605098603" duration="1392000" />
+      <workItem from="1590739382867" duration="5117000" />
+      <workItem from="1590750889929" duration="6464000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Plugins" timestamp="1590186497448">
